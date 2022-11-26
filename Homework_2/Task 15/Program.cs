@@ -7,13 +7,13 @@
 Console.WriteLine("Введите номер дня недели: ");
 int a = Convert.ToInt32(Console.ReadLine());
 
-if(a < 6)
+if(a > 0 && a < 6)
 {
     Console.WriteLine("Будний день!");
 }
 else
 {
-    if(a > 7)
+    if(a <= 0 || a > 7)
     {
         Console.WriteLine("Такого дня нет!");
     }
