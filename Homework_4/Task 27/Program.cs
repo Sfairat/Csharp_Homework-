@@ -9,6 +9,7 @@
 Console.WriteLine("Введите число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 
+a = Math.Abs(a);
 int sum = 0;
 
 while (a > 0)
